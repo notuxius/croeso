@@ -28,31 +28,31 @@ Page3Form {
         onNewData: {executer.disconnectSource(sourceName);}
     }
     
-    button1.onClicked: {
+    button11.onClicked: {
         executer.connectSource("kcmshell5 org_nxos_firewall");
     }
-    button2.onClicked: {
+    button21.onClicked: {
         executer.connectSource("kcmshell5 powerdevilprofilesconfig");
     }
-    button3.onClicked: {
+    button31.onClicked: {
         executer.connectSource("kcmshell5 kcm_systemd");
     }
-    button4.onClicked: {
+    button41.onClicked: {
         executer.connectSource("kcmshell5 kcm_users");
     }
-    button5.onClicked: {
+    button51.onClicked: {
         executer.connectSource("kcmshell5 kcm_networkmanagement");
     }
-    button6.onClicked: {
+    button61.onClicked: {
         executer.connectSource("kcmshell5 kwalletconfig5");
     }
-    button7.onClicked: {
+    button71.onClicked: {
         executer.connectSource("kcmshell5 kcm_plasmasearch");
     }
-    button8.onClicked: {
+    button81.onClicked: {
         executer.connectSource("/usr/bin/octopi-cachecleaner");
     }
-    button9.onClicked: {
+    button91.onClicked: {
         executer.connectSource("kcmshell5 componentchooser");
     }
 }

@@ -64,4 +64,32 @@ Page1Form {
     button9.onClicked: {
         executer.connectSource("kcmshell5 fonts");
     }
+
+    button11.onClicked: {
+        executer.connectSource("kcmshell5 org_nxos_firewall");
+    }
+    button21.onClicked: {
+        executer.connectSource("kcmshell5 powerdevilprofilesconfig");
+    }
+    button31.onClicked: {
+        executer.connectSource("kcmshell5 kcm_systemd");
+    }
+    button41.onClicked: {
+        executer.connectSource("kcmshell5 user_manager");
+    }
+    button51.onClicked: {
+        executer.connectSource("kcmshell5 kcm_networkmanagement");
+    }
+    button61.onClicked: {
+        executer.connectSource("kcmshell5 kwalletconfig5");
+    }
+    button71.onClicked: {
+        executer.connectSource("kcmshell5 kcm_plasmasearch");
+    }
+    button81.onClicked: {
+        executer.connectSource("/usr/bin/octopi-cachecleaner");
+    }
+    button91.onClicked: {
+        executer.connectSource("kcmshell5 componentchooser");
+    }
 }

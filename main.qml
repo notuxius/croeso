@@ -32,7 +32,7 @@ ApplicationWindow {
     maximumHeight: 640
     x: Screen.width / 2 - width / 2
     y: Screen.height / 2 - height / 2
-    title: qsTr("Croeso")
+    title: qsTr("Netrunner Command Center")
 
     SwipeView {
         id: swipeView
@@ -41,15 +41,14 @@ ApplicationWindow {
 
         Page1 {
             Label {
-                text: qsTr("<div><h2>What is KaOS?</h2>
-                            The idea behind KaOS is to create a tightly integrated and transparent<br>
-                            distribution for the modern desktop, build from scratch with a very specific focus.<br>
-                            Focus on one DE (KDE Plasma), one toolkit (Qt) & one architecture (x86_64).<br>
-                            Plus a focus on evaluting and selecting the most suitable tools and applications.<br><br>
-                            This page will help you personalize the most commonly used settings in your KaOS workspace quickly.</div>")
-                anchors.centerIn: parent
+                text: qsTr("<div>Netrunner Rolling is based on Manjaro/Arch.
+                            It is, by its name, a continously updated distribution,
+                            that gets its updates from Manjaro after some thouroughly testing.</div>")
+//                anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
                 width: 690
+                x: 145
+                y: 155
                 wrapMode: Text.WordWrap
             }
         }
@@ -239,17 +238,17 @@ ApplicationWindow {
         TabButton {
             text: qsTr("Wallpaper")
         }
-        TabButton {
-            text: qsTr("Docs")
-        }
-        TabButton {
-            text: qsTr("Advanced")
-        }
+//        TabButton {
+//            text: qsTr("Docs")
+//        }
+//        TabButton {
+//            text: qsTr("Advanced")
+//        }
         TabButton {
             text: qsTr("About")
         }
         TabButton {
-            text: qsTr("News")
+            text: qsTr("Build")
         }
         TabButton {
             text: qsTr("Quit")

@@ -23,15 +23,15 @@ import QtQuick.Controls.Material 2.1
 
 Item {
     id: item1
-    property alias button1: button1
-    property alias button2: button2
-    property alias button3: button3
-    property alias button4: button4
-    property alias button5: button5
-    property alias button6: button6
-    property alias button7: button7
-    property alias button8: button8
-    property alias button9: button9
+    property alias button11: button11
+    property alias button21: button21
+    property alias button31: button31
+    property alias button41: button41
+    property alias button51: button51
+    property alias button61: button61
+    property alias button71: button71
+    property alias button81: button81
+    property alias button91: button91
     width: 900
     height: 600
 
@@ -43,7 +43,7 @@ Item {
         anchors.top: parent.top
 
         Button {
-            id: button1
+            id: button11
             width: 150
             text: qsTr("Firewall")
             hoverEnabled: true
@@ -71,7 +71,7 @@ Item {
         }
 
         Button {
-            id: button2
+            id: button21
             width: 150
             text: qsTr("Energy Savings")
             hoverEnabled: true
@@ -98,7 +98,7 @@ Item {
         }
 
         Button {
-            id: button3
+            id: button31
             width: 150
             text: qsTr("Systemd Daemon")
             hoverEnabled: true
@@ -145,7 +145,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
 
         Button {
-            id: button4
+            id: button41
             width: 150
             text: qsTr("Add Users")
             hoverEnabled: true
@@ -171,7 +171,7 @@ Item {
         }
 
         Button {
-            id: button5
+            id: button51
             width: 150
             text: qsTr("Network Management")
             hoverEnabled: true
@@ -196,7 +196,7 @@ Item {
         }
 
         Button {
-            id: button6
+            id: button61
             width: 150
             text: qsTr("KDE Wallet")
             hoverEnabled: true
@@ -231,7 +231,7 @@ Item {
         anchors.topMargin: 495
         anchors.top: parent.top
         Button {
-            id: button7
+            id: button71
             width: 150
             text: qsTr("Configure Search")
             hoverEnabled: true
@@ -256,7 +256,7 @@ Item {
         }
 
         Button {
-            id: button8
+            id: button81
             width: 150
             text: qsTr("Pacman Cache")
             hoverEnabled: true
@@ -284,7 +284,7 @@ Item {
         }
 
         Button {
-            id: button9
+            id: button91
             width: 150
             text: qsTr("Default Apps")
             hoverEnabled: true

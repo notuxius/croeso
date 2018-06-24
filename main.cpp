@@ -4,7 +4,7 @@
 #include <QTranslator>
 #include <QLocale>
 #include <QQuickStyle>
-//news section
+//build section
 #include <QtWebView/QtWebView>
 //wallpaper section
 #include <QCoreApplication>
