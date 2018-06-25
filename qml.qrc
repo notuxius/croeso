@@ -13,7 +13,6 @@
         <file>wallpaper/Nav.qml</file>
         <file>wallpaper/Photo.qml</file>
         <file>wallpaper/PhotoList.qml</file>
-        <!--Button images-->
         <file>images/advanced.svg</file>
         <file>images/contrast.svg</file>
         <file>images/document.svg</file>
@@ -40,7 +39,6 @@
         <file>images/format-text-symbol.svg</file>
         <file>images/view-list-icons.svg</file>
         <file>croeso.svg</file>
-        <!--Locale files-->
         <file>lang/croeso_es_AR.qm</file>
         <file>lang/croeso_es.qm</file>
         <file>lang/croeso_fr.qm</file>
@@ -55,7 +53,6 @@
         <file>lang/croeso_hi_IN.qm</file>
         <file>lang/croeso_hu.qm</file>
         <file>lang/croeso_tr_TR.qm</file>
-        <!--Fontawesome images-->
         <file>images/fontawesome/bell.svg</file>
         <file>images/fontawesome/comments.svg</file>
         <file>images/fontawesome/envelope.svg</file>
@@ -66,5 +63,6 @@
         <file>images/fontawesome/linux.svg</file>
         <file>images/fontawesome/paypal.svg</file>
         <file>images/fontawesome/usb.svg</file>
+        <file>images/fontawesome/keyboard.svg</file>
     </qresource>
 </RCC>

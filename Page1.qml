@@ -50,13 +50,13 @@ Page1Form {
         executer.connectSource("kcmshell5 mouse");
     }
     button5.onClicked: {
-        executer.connectSource("kcmshell5 icons");
+        executer.connectSource("kcmshell5 kcm_keyboard");
     }
     button6.onClicked: {
         executer.connectSource("kcmshell5 desktop");
     }
     button7.onClicked: {
-        executer.connectSource("kcmshell5 kscreen");
+        executer.connectSource("kcmshell5 icons");
     }
     button8.onClicked: {
         executer.connectSource("kcmshell5 colors");
@@ -87,7 +87,7 @@ Page1Form {
         executer.connectSource("kcmshell5 kcm_plasmasearch");
     }
     button81.onClicked: {
-        executer.connectSource("/usr/bin/octopi-cachecleaner");
+        executer.connectSource("kcmshell5 kscreen");
     }
     button91.onClicked: {
         executer.connectSource("kcmshell5 componentchooser");

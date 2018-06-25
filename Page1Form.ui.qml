@@ -269,7 +269,7 @@ Item {
         Button {
             id: button81
             width: 150
-            text: qsTr("Pacman Cache")
+            text: qsTr("Screen Settings")
             hoverEnabled: true
             leftPadding: 35
             opacity: 1
@@ -284,7 +284,7 @@ Item {
                 sourceSize.height: 22
                 sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/fontawesome/linux.svg"
+                source: "images/screen.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter
@@ -327,7 +327,7 @@ Item {
         width: 800
         anchors.horizontalCenterOffset: 0
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 276
+        anchors.topMargin: 222
         anchors.top: parent.top
 
         Button {
@@ -422,7 +422,7 @@ Item {
     RowLayout {
         //        id: rowLayout
         x: 101
-        y: 222
+        y: 352
         width: 800
         height: 48
         anchors.horizontalCenterOffset: 0
@@ -457,7 +457,7 @@ Item {
         Button {
             id: button5
             width: 150
-            text: qsTr("Icon Set")
+            text: qsTr("Keyboard Settings")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28
@@ -475,7 +475,7 @@ Item {
                 anchors.left: parent.left
                 anchors.leftMargin: 15
                 fillMode: Image.PreserveAspectFit
-                source: "images/view-list-icons.svg"
+                source: "images/fontawesome/keyboard.svg"
             }
         }
 
@@ -509,12 +509,12 @@ Item {
         y: 3
         width: 800
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 330
+        anchors.topMargin: 276
         anchors.top: parent.top
         Button {
             id: button7
             width: 150
-            text: qsTr("Screen Settings")
+            text: qsTr("Icon Set")
             hoverEnabled: true
             leftPadding: 28
             checkable: false
@@ -528,7 +528,7 @@ Item {
                 sourceSize.height: 22
                 sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/screen.svg"
+                source: "images/view-list-icons.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter

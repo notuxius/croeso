@@ -41,9 +41,9 @@ ApplicationWindow {
 
         Page1 {
             Label {
-                text: qsTr("<div>Netrunner Rolling is based on Manjaro/Arch.
-                            It is, by its name, a continously updated distribution,
-                            that gets its updates from Manjaro after some thouroughly testing.</div>")
+                text: qsTr("<div>Netrunner is a complete Linux Operating System
+                            for desktop computers, netbooks and ARM microcomputers,
+                            that exclusively uses the KDE Plasma desktop environment</div>")
 //                anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
                 width: 690
