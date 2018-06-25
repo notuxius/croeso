@@ -75,7 +75,7 @@ Page1Form {
         executer.connectSource("kcmshell5 kcm_systemd");
     }
     button41.onClicked: {
-        executer.connectSource("kcmshell5 user_manager");
+        executer.connectSource("kcmshell5 msm_users");
     }
     button51.onClicked: {
         executer.connectSource("kcmshell5 kcm_networkmanagement");

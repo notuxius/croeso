@@ -32,22 +32,22 @@ Page2Form {
     //    id: pageLoader
     //}
 
-    button1.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/");
-    }
-    button2.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/pacman/");
-    }
-    button3.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/nvidia/");
-    }
+//    button1.onClicked: {
+//        Qt.openUrlExternally("https://kaosx.us/docs/");
+//    }
+//    button2.onClicked: {
+//        Qt.openUrlExternally("https://kaosx.us/docs/pacman/");
+//    }
+//    button3.onClicked: {
+//        Qt.openUrlExternally("https://kaosx.us/docs/nvidia/");
+//    }
     button4.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/kernels/");
+        Qt.openUrlExternally("https://www.netrunner.com/");
     }
     button5.onClicked: {
-         Qt.openUrlExternally("https://kaosx.us/docs/kcp/");
+         Qt.openUrlExternally("https://www.facebook.com/netrunner.os/");
     }
     button6.onClicked: {
-        Qt.openUrlExternally("https://forum.kaosx.us/");
+        Qt.openUrlExternally("https://forums.netrunner.com/");
     }
 }

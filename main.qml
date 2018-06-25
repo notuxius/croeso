@@ -63,7 +63,7 @@ ApplicationWindow {
         Page2 {
             Label {
                 textFormat: Text.RichText
-                text: qsTr("<p>To familiarize yourself with KaOS, please read some of these documents.</p>
+                text: qsTr("<p>To familiarize yourself with Netrunner, please visit these pages.</p>
                             
                             <p>Use the forum for questions, feedback and suggestions.</p>")
                 anchors.centerIn: parent
@@ -74,10 +74,7 @@ ApplicationWindow {
         Page3 {
             Label {
                 textFormat: Text.RichText
-                text: qsTr("<p>This page lists more advanced settings options.  Eventhough more advanced, this does<br>
-                            not mean less important.</p>
-                            
-                            <p>Consider setting these now or revisit at a later time.</p>")
+                text: qsTr("Build Netrunner Rolling ISOs")
                 anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
             }
@@ -101,133 +98,133 @@ ApplicationWindow {
         }
     }
     
-    RowLayout {
-        width: 150
-        anchors.rightMargin: 20
-        anchors.right: parent.right
-        anchors.topMargin: 5
-        anchors.top: parent.top
+//    RowLayout {
+//        width: 150
+//        anchors.rightMargin: 20
+//        anchors.right: parent.right
+//        anchors.topMargin: 5
+//        anchors.top: parent.top
     
-        Button {
-                id: github
-                hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://github.com/KaOSx"); }
-                background: Rectangle {
-                    implicitWidth: 22
-                    implicitHeight: 22
-                    color: "transparent"
-                }
+//        Button {
+//                id: github
+//                hoverEnabled: true
+//                onClicked: {  Qt.openUrlExternally("https://github.com/KaOSx"); }
+//                background: Rectangle {
+//                    implicitWidth: 22
+//                    implicitHeight: 22
+//                    color: "transparent"
+//                }
                 
-                ToolTip.delay: 500
-                ToolTip.timeout: 5000
-                ToolTip.visible: hovered
-                ToolTip.text: qsTr("Code & Bug trackers on Github for KaOS")
+//                ToolTip.delay: 500
+//                ToolTip.timeout: 5000
+//                ToolTip.visible: hovered
+//                ToolTip.text: qsTr("Code & Bug trackers on Github for KaOS")
             
-            Image {
-                anchors.fill: parent
-                sourceSize.width: 22
-                sourceSize.height: 22
-                fillMode: Image.PreserveAspectFit
-                source: "images/fontawesome/github.svg"
-            }
-        }
+//            Image {
+//                anchors.fill: parent
+//                sourceSize.width: 22
+//                sourceSize.height: 22
+//                fillMode: Image.PreserveAspectFit
+//                source: "images/fontawesome/github.svg"
+//            }
+//        }
                 
-        Button {
-                id: irc
-                hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://kiwiirc.com/client/irc.freenode.net/#kaosx"); }
-                background: Rectangle {
-                    implicitWidth: 24
-                    implicitHeight: 24
-                    color: "transparent"
-                }
+//        Button {
+//                id: irc
+//                hoverEnabled: true
+//                onClicked: {  Qt.openUrlExternally("https://kiwiirc.com/client/irc.freenode.net/#kaosx"); }
+//                background: Rectangle {
+//                    implicitWidth: 24
+//                    implicitHeight: 24
+//                    color: "transparent"
+//                }
                 
-                ToolTip.delay: 500
-                ToolTip.timeout: 5000
-                ToolTip.visible: hovered
-                ToolTip.text: qsTr("Join the KaOS IRC Channel")
+//                ToolTip.delay: 500
+//                ToolTip.timeout: 5000
+//                ToolTip.visible: hovered
+//                ToolTip.text: qsTr("Join the KaOS IRC Channel")
             
-            Image {
-                anchors.fill: parent
-                sourceSize.width: 24
-                sourceSize.height: 24
-                fillMode: Image.PreserveAspectFit
-                source: "images/fontawesome/comments.svg"
-            }
-        }
+//            Image {
+//                anchors.fill: parent
+//                sourceSize.width: 24
+//                sourceSize.height: 24
+//                fillMode: Image.PreserveAspectFit
+//                source: "images/fontawesome/comments.svg"
+//            }
+//        }
         
-        Button {
-                id: gplus
-                hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://plus.google.com/u/0/communities/116669111554447085724"); }
-                background: Rectangle {
-                    implicitWidth: 24
-                    implicitHeight: 24
-                    color: "transparent"
-                }
+//        Button {
+//                id: gplus
+//                hoverEnabled: true
+//                onClicked: {  Qt.openUrlExternally("https://plus.google.com/u/0/communities/116669111554447085724"); }
+//                background: Rectangle {
+//                    implicitWidth: 24
+//                    implicitHeight: 24
+//                    color: "transparent"
+//                }
                 
-                ToolTip.delay: 500
-                ToolTip.timeout: 5000
-                ToolTip.visible: hovered
-                ToolTip.text: qsTr("Google Plus KaOS community")
+//                ToolTip.delay: 500
+//                ToolTip.timeout: 5000
+//                ToolTip.visible: hovered
+//                ToolTip.text: qsTr("Google Plus KaOS community")
             
-            Image {
-                anchors.fill: parent
-                sourceSize.width: 24
-                sourceSize.height: 24
-                fillMode: Image.PreserveAspectFit
-                source: "images/fontawesome/google-plus-g.svg"
-            }
-        }
+//            Image {
+//                anchors.fill: parent
+//                sourceSize.width: 24
+//                sourceSize.height: 24
+//                fillMode: Image.PreserveAspectFit
+//                source: "images/fontawesome/google-plus-g.svg"
+//            }
+//        }
         
-        Button {
-                id: gitter
-                hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://gitter.im/KaOSx/KaOS/"); }
-                background: Rectangle {
-                    implicitWidth: 22
-                    implicitHeight: 22
-                    color: "transparent"
-                }
+//        Button {
+//                id: gitter
+//                hoverEnabled: true
+//                onClicked: {  Qt.openUrlExternally("https://gitter.im/KaOSx/KaOS/"); }
+//                background: Rectangle {
+//                    implicitWidth: 22
+//                    implicitHeight: 22
+//                    color: "transparent"
+//                }
                 
-                ToolTip.delay: 500
-                ToolTip.timeout: 5000
-                ToolTip.visible: hovered
-                ToolTip.text: qsTr("Gitter Chat for KaOS")
+//                ToolTip.delay: 500
+//                ToolTip.timeout: 5000
+//                ToolTip.visible: hovered
+//                ToolTip.text: qsTr("Gitter Chat for KaOS")
             
-            Image {
-                anchors.fill: parent
-                sourceSize.width: 22
-                sourceSize.height: 22
-                fillMode: Image.PreserveAspectFit
-                source: "images/fontawesome/gitter.svg"
-            }
-        }
+//            Image {
+//                anchors.fill: parent
+//                sourceSize.width: 22
+//                sourceSize.height: 22
+//                fillMode: Image.PreserveAspectFit
+//                source: "images/fontawesome/gitter.svg"
+//            }
+//        }
         
-        Button {
-                id: mail
-                hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://groups.google.com/forum/?fromgroups#!forum/kaos-general"); }
-                background: Rectangle {
-                    implicitWidth: 22
-                    implicitHeight: 22
-                    color: "transparent"
-                }
+//        Button {
+//                id: mail
+//                hoverEnabled: true
+//                onClicked: {  Qt.openUrlExternally("https://groups.google.com/forum/?fromgroups#!forum/kaos-general"); }
+//                background: Rectangle {
+//                    implicitWidth: 22
+//                    implicitHeight: 22
+//                    color: "transparent"
+//                }
                 
-                ToolTip.delay: 500
-                ToolTip.timeout: 5000
-                ToolTip.visible: hovered
-                ToolTip.text: qsTr("KaOS Mail Group")
+//                ToolTip.delay: 500
+//                ToolTip.timeout: 5000
+//                ToolTip.visible: hovered
+//                ToolTip.text: qsTr("KaOS Mail Group")
             
-            Image {
-                anchors.fill: parent
-                sourceSize.width: 22
-                sourceSize.height: 22
-                fillMode: Image.PreserveAspectFit
-                source: "images/fontawesome/envelope.svg"
-            }
-        }
-    }
+//            Image {
+//                anchors.fill: parent
+//                sourceSize.width: 22
+//                sourceSize.height: 22
+//                fillMode: Image.PreserveAspectFit
+//                source: "images/fontawesome/envelope.svg"
+//            }
+//        }
+//    }
 
     footer: TabBar {
         id: tabBar

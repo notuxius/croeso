@@ -23,9 +23,9 @@ import QtQuick.Controls.Material 2.1
 
 Item {
     id: item1
-    property alias button1: button1
-    property alias button2: button2
-    property alias button3: button3
+    //    property alias button1: button1
+    //    property alias button2: button2
+    //    property alias button3: button3
     property alias button4: button4
     property alias button5: button5
     property alias button6: button6
@@ -33,104 +33,103 @@ Item {
     width: 900
     height: 600
 
-    RowLayout {
-        width: 800
-        anchors.horizontalCenterOffset: 0
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 435
-        anchors.top: parent.top
+    //    RowLayout {
+    //        width: 800
+    //        anchors.horizontalCenterOffset: 0
+    //        anchors.horizontalCenter: parent.horizontalCenter
+    //        anchors.topMargin: 435
+    //        anchors.top: parent.top
 
-        Button {
-            id: button1
-            width: 150
-            text: qsTr("Asking Smart")
-            hoverEnabled: true
-            enabled: true
-            Layout.fillWidth: true
-            rightPadding: 28
-            leftPadding: 28
-            checkable: false
-            highlighted: false
-            Material.elevation: 1
+    //        Button {
+    //            id: button1
+    //            width: 150
+    //            text: qsTr("Asking Smart")
+    //            hoverEnabled: true
+    //            enabled: true
+    //            Layout.fillWidth: true
+    //            rightPadding: 28
+    //            leftPadding: 28
+    //            checkable: false
+    //            highlighted: false
+    //            Material.elevation: 1
 
-            Image {
-                id: image1
-                y: 13
-                width: 22
-                height: 22
-                sourceSize.height: 22
-                sourceSize.width: 22
-                fillMode: Image.PreserveAspectFit
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.left: parent.left
-                anchors.leftMargin: 15
-                source: "images/help2.svg"
-            }
-        }
+    //            Image {
+    //                id: image1
+    //                y: 13
+    //                width: 22
+    //                height: 22
+    //                sourceSize.height: 22
+    //                sourceSize.width: 22
+    //                fillMode: Image.PreserveAspectFit
+    //                anchors.verticalCenter: parent.verticalCenter
+    //                anchors.left: parent.left
+    //                anchors.leftMargin: 15
+    //                source: "images/help2.svg"
+    //            }
+    //        }
 
-        Button {
-            id: button2
-            width: 150
-            text: qsTr("Pacman")
-            hoverEnabled: true
-            enabled: true
-            checkable: false
-            opacity: 1
-            Layout.fillWidth: true
-            rightPadding: 35
-            leftPadding: 35
-            highlighted: false
-            Material.elevation: 1
+    //        Button {
+    //            id: button2
+    //            width: 150
+    //            text: qsTr("Pacman")
+    //            hoverEnabled: true
+    //            enabled: true
+    //            checkable: false
+    //            opacity: 1
+    //            Layout.fillWidth: true
+    //            rightPadding: 35
+    //            leftPadding: 35
+    //            highlighted: false
+    //            Material.elevation: 1
 
-            Image {
-                id: image2
-                y: -49
-                width: 22
-                height: 22
-                fillMode: Image.PreserveAspectFit
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.left: parent.left
-                anchors.leftMargin: 15
-                source: "images/list.svg"
-            }
-        }
+    //            Image {
+    //                id: image2
+    //                y: -49
+    //                width: 22
+    //                height: 22
+    //                fillMode: Image.PreserveAspectFit
+    //                anchors.verticalCenter: parent.verticalCenter
+    //                anchors.left: parent.left
+    //                anchors.leftMargin: 15
+    //                source: "images/list.svg"
+    //            }
+    //        }
 
-        Button {
-            id: button3
-            width: 150
-            text: qsTr("Switching NVidia")
-            hoverEnabled: true
-            opacity: 1
-            Layout.fillWidth: true
-            rightPadding: 35
-            leftPadding: 35
-            highlighted: false
-            Material.elevation: 1
+    //        Button {
+    //            id: button3
+    //            width: 150
+    //            text: qsTr("Switching NVidia")
+    //            hoverEnabled: true
+    //            opacity: 1
+    //            Layout.fillWidth: true
+    //            rightPadding: 35
+    //            leftPadding: 35
+    //            highlighted: false
+    //            Material.elevation: 1
 
-            Image {
-                id: image3
-                y: 6
-                width: 22
-                height: 22
-                fillMode: Image.PreserveAspectFit
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.left: parent.left
-                anchors.leftMargin: 15
-                source: "images/help.svg"
-            }
-        }
-    }
+    //            Image {
+    //                id: image3
+    //                y: 6
+    //                width: 22
+    //                height: 22
+    //                fillMode: Image.PreserveAspectFit
+    //                anchors.verticalCenter: parent.verticalCenter
+    //                anchors.left: parent.left
+    //                anchors.leftMargin: 15
+    //                source: "images/help.svg"
+    //            }
+    //        }
+    //    }
 
-    Image {
-        id: image
-        x: 270
-        y: 25
-        width: 100
-        height: 100
-        anchors.horizontalCenter: rowLayout.horizontalCenter
-        source: "images/documentation.svg"
-    }
-
+    //    Image {
+    //        id: image
+    //        x: 270
+    //        y: 25
+    //        width: 100
+    //        height: 100
+    //        anchors.horizontalCenter: rowLayout.horizontalCenter
+    //        source: "images/documentation.svg"
+    //    }
     RowLayout {
         id: rowLayout
         x: 101
@@ -143,7 +142,7 @@ Item {
         Button {
             id: button4
             width: 150
-            text: qsTr("Additional Kernels")
+            text: qsTr("Homepage")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28
@@ -171,7 +170,7 @@ Item {
         Button {
             id: button5
             width: 150
-            text: qsTr("KCP")
+            text: qsTr("Facebook")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28
