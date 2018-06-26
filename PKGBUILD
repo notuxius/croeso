@@ -1,5 +1,5 @@
 pkgname=netrunner-command-center
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="First run settings and info app for Netrunner, written in QML"
 arch=('x86_64')
@@ -11,14 +11,14 @@ source=("git://github.com/notuxius/netrunner-command-center.git")
 md5sums=('SKIP')
 
 build() {
-    cd croeso/
+    cd netrunner-command-center/
    
     /usr/bin/qmake netrunner-command-center.pro
     make
 }
 
 package() {
-    cd croeso/
+    cd netrunner-command-center/
    
     make INSTALL_ROOT=${pkgdir}/ install
 }
