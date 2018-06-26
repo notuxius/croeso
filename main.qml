@@ -63,9 +63,8 @@ ApplicationWindow {
         Page2 {
             Label {
                 textFormat: Text.RichText
-                text: qsTr("<p>To familiarize yourself with Netrunner, please visit these pages.</p>
-                            
-                            <p>Use the forum for questions, feedback and suggestions.</p>")
+                text: qsTr("<p>To familiarize yourself with Netrunner, please visit these pages</p>
+                            <p>Use the forums for questions, feedback and suggestions</p>")
                 anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
             }
@@ -74,28 +73,29 @@ ApplicationWindow {
         Page3 {
             Label {
                 textFormat: Text.RichText
-                text: qsTr("Build Netrunner Rolling ISOs")
+                text: qsTr("<p>Manager repositories and package cache on your system</p>
+                            <p>Build Netrunner Rolling ISOs</p>")
                 anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
             }
         }
         
-        Page {
-            Loader {
-                id: about
-                source: "notes.qml"
-            }
+//        Page {
+//            Loader {
+//                id: about
+//                source: "notes.qml"
+//            }
             
-        }
+//        }
         
-        Page {
-            WebView {
-                id: webView
-                anchors.fill: parent
-                url: "https://kaosx.us/media/notes.html"
-                //url: "notes.html"
-            }
-        }
+//        Page {
+//            WebView {
+//                id: webView
+//                anchors.fill: parent
+//                url: "https://kaosx.us/media/notes.html"
+//                //url: "notes.html"
+//            }
+//        }
     }
     
 //    RowLayout {

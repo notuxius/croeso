@@ -195,7 +195,7 @@ Item {
         Button {
             id: button6
             width: 150
-            text: qsTr("Forum")
+            text: qsTr("Forums")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28

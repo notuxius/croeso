@@ -46,12 +46,12 @@ Page3Form {
 //    button61.onClicked: {
 //        executer.connectSource("kcmshell5 kwalletconfig5");
 //    }
-//    button71.onClicked: {
-//        executer.connectSource("kcmshell5 kcm_plasmasearch");
-//    }
-//    button81.onClicked: {
-//        executer.connectSource("/usr/bin/octopi-cachecleaner");
-//    }
+    button71.onClicked: {
+        executer.connectSource("/usr/bin/octopi-repoeditor");
+    }
+    button81.onClicked: {
+        executer.connectSource("/usr/bin/octopi-cachecleaner");
+    }
     button91.onClicked: {
         executer.connectSource("konsole --noclose -e 'bash -c /usr/bin/prepare-testing-config'");
     }
