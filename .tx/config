@@ -1,8 +1,8 @@
 [main]
 host = https://www.transifex.com
 
-[kaos.croesots]
-file_filter = lang/croeso_<lang>.ts
-source_file = lang/croeso.ts
+[netrunner.netrunner-command-centerts]
+file_filter = lang/netrunner-command-center_<lang>.ts
+source_file = lang/netrunner-command-center.ts
 source_lang = en
 type = QT
