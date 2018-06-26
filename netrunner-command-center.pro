@@ -35,25 +35,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-TRANSLATIONS  += lang/croeso.ts \
-              lang/croeso_nl_NL.ts \
-              lang/croeso_ast.ts \
-              lang/croeso_ca.ts \
-              lang/croeso_cs.ts \
-              lang/croeso_de.ts \
-              lang/croeso_es.ts \
-              lang/croeso_es_AR.ts \
-              lang/croeso_fa_IR.ts \
-              lang/croeso_fr.ts \
-              lang/croeso_hi_IN.ts \
-              lang/croeso_hr_HR.ts \
-              lang/croeso_hu.ts \
-              lang/croeso_id_ID.ts \
-              lang/croeso_it.ts \
-              lang/croeso_pl.ts \
-              lang/croeso_pt_BR.ts \
-              lang/croeso_uk.ts \
-              lang/croeso_tr_TR.ts \
+TRANSLATIONS  += lang/netrunner-command-center.ts \
+              lang/netrunner-command-center_nl_NL.ts \
+              lang/netrunner-command-center_ast.ts \
+              lang/netrunner-command-center_ca.ts \
+              lang/netrunner-command-center_cs.ts \
+              lang/netrunner-command-center_de.ts \
+              lang/netrunner-command-center_es.ts \
+              lang/netrunner-command-center_es_AR.ts \
+              lang/netrunner-command-center_fa_IR.ts \
+              lang/netrunner-command-center_fr.ts \
+              lang/netrunner-command-center_hi_IN.ts \
+              lang/netrunner-command-center_hr_HR.ts \
+              lang/netrunner-command-center_hu.ts \
+              lang/netrunner-command-center_id_ID.ts \
+              lang/netrunner-command-center_it.ts \
+              lang/netrunner-command-center_pl.ts \
+              lang/netrunner-command-center_pt_BR.ts \
+              lang/netrunner-command-center_uk.ts \
+              lang/netrunner-command-center_tr_TR.ts \
 
 # Default rules for deployment.
 #qnx: target.path = /tmp/$${TARGET}/bin
@@ -64,12 +64,12 @@ sources.files = $$SOURCES $$RESOURCES *.pro
 sources.path = .
 
 desktop.path = /usr/share/applications
-desktop.files += croeso.desktop
+desktop.files += netrunner-command-center.desktop
 
-icon.files += croeso.svg
+icon.files += netrunner-command-center.svg
 icon.path += /usr/share/pixmaps
 
-qml.path = /usr/lib/qt5/qml/croeso
+qml.path = /usr/lib/qt5/qml/netrunner-command-center
 #qml.files += package.qml
 
 INSTALLS += target desktop icon qml

@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
     QTranslator appTranslator;
 
-    appTranslator.load(":/lang/croeso_" +
+    appTranslator.load(":/lang/netrunner-command-center_" +
                        QLocale::system().name());
     app.installTranslator(&appTranslator);
     

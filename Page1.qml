@@ -30,10 +30,10 @@ Page1Form {
 
     switch1.onCheckedChanged: {
         if ( ! switch1.checked ) {
-            executer.connectSource("rm ~/.config/autostart/croeso.desktop");
+            executer.connectSource("rm ~/.config/autostart/netrunner-command-center.desktop");
         }
         else {
-            executer.connectSource("cp /usr/share/applications/croeso.desktop ~/.config/autostart/croeso.desktop");
+            executer.connectSource("cp /usr/share/applications/netrunner-command-center.desktop ~/.config/autostart/netrunner-command-center.desktop");
         }
     }
     

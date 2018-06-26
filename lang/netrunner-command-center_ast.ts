@@ -1,45 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fa_IR" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ast" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation type="unfinished"/>
+        <translation>Estilu de widgets</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema de Plasma</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation type="unfinished"/>
+        <translation>Decoración de ventanes</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
         <source>Mouse Behavior</source>
-        <translation type="unfinished"/>
+        <translation>Comportamientu del mur</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation type="unfinished"/>
+        <translation>Conxuntu d&apos;iconos</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Escritorios virtuales</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation type="unfinished"/>
+        <translation>Axustes de pantalla</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation type="unfinished"/>
+        <translation>Colores</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
@@ -49,7 +49,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
         <source>Launch at System Start</source>
-        <translation type="unfinished"/>
+        <translation>Llanzar nel aniciu del sistema</translation>
     </message>
 </context>
 <context>
@@ -62,7 +62,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation type="unfinished"/>
+        <translation>Pacman</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
@@ -72,17 +72,17 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation type="unfinished"/>
+        <translation>Kernels adicionales</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation type="unfinished"/>
+        <translation>KCP</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>Foru</translation>
     </message>
 </context>
 <context>
@@ -171,8 +171,8 @@
     <name>main</name>
     <message>
         <location filename="../main.qml" line="35"/>
-        <source>Croeso</source>
-        <translation type="unfinished"/>
+        <source>Netrunner Command Center</source>
+        <translation>Netrunner Command Center</translation>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -189,7 +189,9 @@
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Pa familiarizate con KaOS, llei dalgún d&apos;estos documentos.&lt;/p&gt;
+
+&lt;p&gt;Usa&apos;l foru pa entrugar duldes y problemes, y facer suxerencies.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="78"/>
@@ -227,7 +229,7 @@
     <message>
         <location filename="../main.qml" line="237"/>
         <source>Customize</source>
-        <translation type="unfinished"/>
+        <translation>Personalizar</translation>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>

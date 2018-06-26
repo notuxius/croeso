@@ -1,10 +1,10 @@
 [Desktop Entry]
 Categories=Qt;System;
-Exec=croeso
-GenericName=Croeso
-Icon=croeso
+Exec=netrunner-command-center
+GenericName=Netrunner Command Center
+Icon=netrunner-command-center
 MimeType=
-Name=Croeso
+Name=Netrunner Command Center
 StartupNotify=false
 Terminal=false
 TerminalOptions=

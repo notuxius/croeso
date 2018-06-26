@@ -171,8 +171,8 @@
     <name>main</name>
     <message>
         <location filename="../main.qml" line="35"/>
-        <source>Croeso</source>
-        <translation>Croeso</translation>
+        <source>Netrunner Command Center</source>
+        <translation>Netrunner Command Center</translation>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>

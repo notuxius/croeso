@@ -1,55 +1,55 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl_NL" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation>Widget Stijl</translation>
+        <translation>Styl prvků</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation>Plasma Thema</translation>
+        <translation>Téma vzhledu Plasmy</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation>Window Decoratie</translation>
+        <translation>Dekorace okna</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
         <source>Mouse Behavior</source>
-        <translation>Muis Gedrag</translation>
+        <translation>Chování myši</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation>Iconen Set</translation>
+        <translation>Sady ikon</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation>Virtuele Bureaubladen</translation>
+        <translation>Virtuální plochy</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation>Scherm Instellingen</translation>
+        <translation>Nastavení obrazovky</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation>Kleuren</translation>
+        <translation>Barvy</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation>Font Instellingen</translation>
+        <translation>Nastavení pásma</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
         <source>Launch at System Start</source>
-        <translation>Start bij System Start</translation>
+        <translation>Spustit během startu systému</translation>
     </message>
 </context>
 <context>
@@ -57,7 +57,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="46"/>
         <source>Asking Smart</source>
-        <translation>Slim vragen</translation>
+        <translation>Ptát se chytře</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
@@ -67,12 +67,12 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation>NVidia omschakelen </translation>
+        <translation>Přepínání NVidia</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation>Extra Kernels</translation>
+        <translation>Dodatečná jádra</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation>Forum</translation>
+        <translation>Fórum</translation>
     </message>
 </context>
 <context>
@@ -95,42 +95,42 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>
         <source>Energy Savings</source>
-        <translation>Energie Besparing</translation>
+        <translation>Spoření energie</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="103"/>
         <source>Systemd Daemon</source>
-        <translation>Systemd Daemon</translation>
+        <translation>Démon systemd</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
         <source>Add Users</source>
-        <translation>Gebruikers Toevoegen</translation>
+        <translation>Přidat uživatele</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="176"/>
         <source>Network Management</source>
-        <translation>Netwerkbeheer</translation>
+        <translation>Správce sítě</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="201"/>
         <source>KDE Wallet</source>
-        <translation>KDE Wallet</translation>
+        <translation>Úschovna KDE</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="236"/>
         <source>Configure Search</source>
-        <translation>Configureer Zoeken</translation>
+        <translation>Nastavení vyhledávání</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="261"/>
         <source>Pacman Cache</source>
-        <translation>Pacman Cache</translation>
+        <translation>Vyrovnávací paměť Pacmana</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation>Standaard Applicaties</translation>
+        <translation>Výchozí aplikace</translation>
     </message>
 </context>
 <context>
@@ -139,23 +139,23 @@
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation>Gedownload</translation>
+        <translation>Staženo</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation>Download</translation>
+        <translation>Stahování</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
         <source>Remove</source>
-        <translation>Verwijder</translation>
+        <translation>Odstranit</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="90"/>
         <source>Set wallpaper</source>
         <extracomment>Photo action button</extracomment>
-        <translation>Stel in als achtergrond</translation>
+        <translation>Nastavit pozadí plochy</translation>
     </message>
 </context>
 <context>
@@ -164,15 +164,15 @@
         <location filename="../wallpaper/PhotoList.qml" line="55"/>
         <source>Load more</source>
         <extracomment>Button at the end of photo list</extracomment>
-        <translation>Meer laden</translation>
+        <translation>Načíst více</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
         <location filename="../main.qml" line="35"/>
-        <source>Croeso</source>
-        <translation>Croeso</translation>
+        <source>Netrunner Command Center</source>
+        <translation>Netrunner Command Center</translation>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -182,21 +182,21 @@
                             Focus on one DE (KDE Plasma), one toolkit (Qt) &amp; one architecture (x86_64).&lt;br&gt;
                             Plus a focus on evaluting and selecting the most suitable tools and applications.&lt;br&gt;&lt;br&gt;
                             This page will help you personalize the most commonly used settings in your KaOS workspace quickly.&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;h2&gt;Wat is KaOS?&lt;/h2&gt;
-                            Het idee achter KaOS is om een nauw geïntegreerde rolling en transparante&lt;br&gt;
-                            distributie voor de moderne desktop te maken, opgebouwd vanuit het niets met&lt;br&gt;
-                             een zeer specifeke focus. Focus op één DE (KDE), één toolkit (Qt) &amp; één architectuur (x86_64).&lt;br&gt;
-                            Plus een focus op de beoordeling en selectie van de meest geschikte tools en applicaties&lt;br&gt;&lt;br&gt;
-                            Deze wizard zal je helpen je Kaos werkruimte gemakkelijk en snel te personaliseren.&lt;/div&gt;</translation>
+        <translation>&lt;div&gt;&lt;h2&gt;Co je KaOS?&lt;/h2&gt;
+                            Myšlenka stojící za systémem KaOS je vytvořit vysoce celistvou a transparentní&lt;br&gt;
+                            distribuci pro moderní pracovní plochu, tvořenou nově od základu s velmi specifickým zaměřením.&lt;br&gt;
+                            Se zaměřením na jedno desktopové prostředí (KDE Plasma), jeden toolkit (Qt) &amp; jednu architekturu (x86_64).&lt;br&gt;
+                            Plus se zaměřením na vyhodnocování a výběř nejužitečnějších nástrojů a aplikací.&lt;br&gt;&lt;br&gt;
+                            Tato stránka vám pomůže rychle si přizpůsobit nejběžnější nastavení prostředí KaOS.&lt;/div&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="67"/>
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Om vertrouwd te raken met KaOS, gaarne enkele van deze documenten lezen.&lt;/p&gt;
+        <translation>&lt;p&gt;Přečtěte si, prosím, některý z těchto dokumentů, které vám pomohou přizpůsobit si KaOS podle svého.&lt;/p&gt;
                             
-                            &lt;p&gt;Gebruik het forum voor vragen, feedback en suggesties.&lt;/p&gt;</translation>
+                            &lt;p&gt;Pokládat otázky, návrhy a podávat zpětnou vazbu můžete na webovém fóru.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="78"/>
@@ -204,70 +204,70 @@
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Deze pagina bevat meer geavanceerde instellingen.  Hoewel dit geavanceerder is, wil niet&lt;br&gt;
-                            zeggen, minder belangrijk.&lt;/p&gt;
+        <translation>&lt;p&gt;Na této stránce je vypsáno více pokročilých nastavení.  I když jsou více pokročilá,&lt;br&gt;
+                            tak to neznamená, že jsou méně důležitá.&lt;/p&gt;
                             
-                            &lt;p&gt;Overweeg deze nu in te stellen of op een later tijdstip opnieuw te bezoeken.&lt;/p&gt;</translation>
+                            &lt;p&gt;Zvažte zda tato nastavení provést nyní, nebo se k nim vrátit později.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="125"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation>Code &amp; Bug trackers op Github voor KaOS</translation>
+        <translation>Zdrojový kód KaOS a sledování bugů na Githubu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation>Join de KaOS IRC Channel</translation>
+        <translation>Připojit se na KaOS IRC kanál</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation>Google Plus KaOS community</translation>
+        <translation>KaOS komunita Google Plus</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
         <source>Gitter Chat for KaOS</source>
-        <translation>Gitter Chat voor KaOS</translation>
+        <translation>KaOS Gitter chat</translation>
     </message>
     <message>
         <location filename="../main.qml" line="221"/>
         <source>KaOS Mail Group</source>
-        <translation>KaOS Mail Group</translation>
+        <translation>KaOS emailová skupina</translation>
     </message>
     <message>
         <location filename="../main.qml" line="237"/>
         <source>Customize</source>
-        <translation>Aanpassen</translation>
+        <translation>Přizpůsobení</translation>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>
         <source>Wallpaper</source>
-        <translation>Wallpaper</translation>
+        <translation>Pozadí plochy</translation>
     </message>
     <message>
         <location filename="../main.qml" line="243"/>
         <source>Docs</source>
-        <translation>Docs</translation>
+        <translation>Dokumenty</translation>
     </message>
     <message>
         <location filename="../main.qml" line="246"/>
         <source>Advanced</source>
-        <translation>Geavanceerd</translation>
+        <translation>Rozšířené</translation>
     </message>
     <message>
         <location filename="../main.qml" line="249"/>
         <source>About</source>
-        <translation>Informatie</translation>
+        <translation>O</translation>
     </message>
     <message>
         <location filename="../main.qml" line="252"/>
         <source>News</source>
-        <translation>Nieuws</translation>
+        <translation>Novinky</translation>
     </message>
     <message>
         <location filename="../main.qml" line="255"/>
         <source>Quit</source>
-        <translation>Afsluiten</translation>
+        <translation>Ukončit</translation>
     </message>
 </context>
 <context>
@@ -301,25 +301,25 @@
         <location filename="../wallpaper/wall.qml" line="46"/>
         <source>Latest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>Laatste</translation>
+        <translation>Poslední</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>Populair</translation>
+        <translation>Populární</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Curated</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>Curated</translation>
+        <translation>Kurátor</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>Gedownload</translation>
+        <translation>Staženo</translation>
     </message>
 </context>
 </TS>

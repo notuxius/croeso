@@ -1,8 +1,7 @@
-# Croeso
-First run settings and info app for KaOS, written in QML
+# Netrunner Command Center
+First run settings and info app for Netrunner, written in QML
 
-![Screenshot](images/croeso1.png)
-![Screenshot2](images/croeso2.png)
+![Screenshot](images/netrunner-command-center.png)
 
 ### License
 GPL
@@ -16,9 +15,9 @@ qt5-quickcontrols2, qt5-webview, plasma-framework
 Go to the source directory of the project and run:
 
 ```
-/usr/lib/qt5/bin/qmake croeso.pro
+/usr/lib/qt5/bin/qmake netrunner-command-center.pro
 make
 make install
 ```
 
-Make sure to adjust to the correct path of your Qt5 qmake. This will build and install Croeso, including localizations files.
+Make sure to adjust to the correct path of your Qt5 qmake. This will build and install Netrunner Command Center, including localizations files.

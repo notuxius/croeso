@@ -38,21 +38,21 @@
         <file>images/search.svg</file>
         <file>images/format-text-symbol.svg</file>
         <file>images/view-list-icons.svg</file>
-        <file>croeso.svg</file>
-        <file>lang/croeso_es_AR.qm</file>
-        <file>lang/croeso_es.qm</file>
-        <file>lang/croeso_fr.qm</file>
-        <file>lang/croeso_it.qm</file>
-        <file>lang/croeso_nl_NL.qm</file>
-        <file>lang/croeso_de.qm</file>
-        <file>lang/croeso_ca.qm</file>
-        <file>lang/croeso_cs.qm</file>
-        <file>lang/croeso_pt_BR.qm</file>
-        <file>lang/croeso_uk.qm</file>
-        <file>lang/croeso_hr_HR.qm</file>
-        <file>lang/croeso_hi_IN.qm</file>
-        <file>lang/croeso_hu.qm</file>
-        <file>lang/croeso_tr_TR.qm</file>
+        <file>netrunner-command-center.svg</file>
+        <file>lang/netrunner-command-center_es_AR.qm</file>
+        <file>lang/netrunner-command-center_es.qm</file>
+        <file>lang/netrunner-command-center_fr.qm</file>
+        <file>lang/netrunner-command-center_it.qm</file>
+        <file>lang/netrunner-command-center_nl_NL.qm</file>
+        <file>lang/netrunner-command-center_de.qm</file>
+        <file>lang/netrunner-command-center_ca.qm</file>
+        <file>lang/netrunner-command-center_cs.qm</file>
+        <file>lang/netrunner-command-center_pt_BR.qm</file>
+        <file>lang/netrunner-command-center_uk.qm</file>
+        <file>lang/netrunner-command-center_hr_HR.qm</file>
+        <file>lang/netrunner-command-center_hi_IN.qm</file>
+        <file>lang/netrunner-command-center_hu.qm</file>
+        <file>lang/netrunner-command-center_tr_TR.qm</file>
         <file>images/fontawesome/bell.svg</file>
         <file>images/fontawesome/comments.svg</file>
         <file>images/fontawesome/envelope.svg</file>

@@ -1,45 +1,45 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation>Stile widget</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation>Tema Plasma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation>Decorazione finestra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
         <source>Mouse Behavior</source>
-        <translation>Comportamento mouse</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation>Set icone</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation>Desktop virtuali</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation>Impostazioni schermo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation>Colori</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
@@ -49,7 +49,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
         <source>Launch at System Start</source>
-        <translation>Lancia all&apos;avvio del sistema</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -62,7 +62,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation>Pacman</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
@@ -72,17 +72,17 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation>Kernel aggiuntivi</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation>KCP</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation>Forum</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -171,8 +171,8 @@
     <name>main</name>
     <message>
         <location filename="../main.qml" line="35"/>
-        <source>Croeso</source>
-        <translation>Croeso</translation>
+        <source>Netrunner Command Center</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -227,7 +227,7 @@
     <message>
         <location filename="../main.qml" line="237"/>
         <source>Customize</source>
-        <translation>Personalizza</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>

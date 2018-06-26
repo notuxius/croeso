@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -171,7 +171,7 @@
     <name>main</name>
     <message>
         <location filename="../main.qml" line="35"/>
-        <source>Croeso</source>
+        <source>Netrunner Command Center</source>
         <translation type="unfinished"/>
     </message>
     <message>
