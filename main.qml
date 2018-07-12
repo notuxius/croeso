@@ -21,7 +21,7 @@ import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import QtQuick.Window 2.0
 import QtQuick.Dialogs 1.2
-import QtWebView 1.1
+// import QtWebView 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
 
 ApplicationWindow {
@@ -73,8 +73,8 @@ ApplicationWindow {
         Page3 {
             Label {
                 textFormat: Text.RichText
-                text: qsTr("<p>Manager repositories and package cache on your system</p>
-                            <p>Build Netrunner Rolling ISOs</p>")
+                text: qsTr("<p>Manager repositories and packages cache on your system</p>
+                            <p>Prepare Manjaro tools testing profile for building Netrunner Rolling ISOs</p>")
                 anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
             }

@@ -1,4 +1,4 @@
-QT += qml quick quickcontrols2 webview
+QT += qml quick quickcontrols2  # webview
 
 TEMPLATE = app
 

@@ -5,7 +5,7 @@
 #include <QLocale>
 #include <QQuickStyle>
 //build section
-#include <QtWebView/QtWebView>
+// #include <QtWebView/QtWebView>
 //wallpaper section
 #include <QCoreApplication>
 #include <QDebug>
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     
     FileSystem::init();
     
-    QtWebView::initialize();
+//     QtWebView::initialize();
 
     QQuickStyle::setStyle("Material");
 

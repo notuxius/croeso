@@ -15,7 +15,7 @@ qt5-quickcontrols2, qt5-webview, plasma-framework
 Go to the source directory of the project and run:
 
 ```
-$(which qmake) netrunner-command-center.pro
+qmake netrunner-command-center.pro
 make
 make install
 ```

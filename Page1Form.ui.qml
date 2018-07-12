@@ -598,7 +598,7 @@ Item {
         x: 73
         y: 51
         text: qsTr("Launch at System Start")
-        checked: true
+        checked: false
         checkable: true
         clip: false
         hoverEnabled: true
