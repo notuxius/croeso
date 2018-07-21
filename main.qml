@@ -73,7 +73,7 @@ ApplicationWindow {
         Page3 {
             Label {
                 textFormat: Text.RichText
-                text: qsTr("<p>Manager repositories and packages cache on your system</p>
+                text: qsTr("<p>Manage repositories and packages cache on your system</p>
                             <p>Prepare Manjaro tools testing profile for building Netrunner Rolling ISOs</p>")
                 anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
