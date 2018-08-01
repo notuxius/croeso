@@ -1,4 +1,4 @@
-QT += qml quick quickcontrols2  # webview
+QT += qml quick quickcontrols2 #webview
 
 TEMPLATE = app
 
@@ -69,10 +69,10 @@ desktop.files += netrunner-command-center.desktop
 icon.files += netrunner-command-center.svg
 icon.path += /usr/share/pixmaps
 
-qml.path = /usr/lib/qt5/qml/netrunner-command-center
+#qml.path = /usr/lib/qt5/qml/netrunner-command-center
 #qml.files += package.qml
 
-INSTALLS += target desktop icon qml
+INSTALLS += target desktop icon #qml
 
 DISTFILES +=
 

@@ -30,6 +30,7 @@ ApplicationWindow {
     maximumWidth: 960
     minimumHeight: 640
     maximumHeight: 640
+//    flags: Qt.Dialog
     x: Screen.width / 2 - width / 2
     y: Screen.height / 2 - height / 2
     title: qsTr("Netrunner Command Center")

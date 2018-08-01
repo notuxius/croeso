@@ -11,6 +11,16 @@ Item {
     width: 960
     height: 620
 
+//    QNetworkAccessManager.networkAccessible()
+
+    Label {
+        textFormat: Text.RichText
+        text: qsTr("<p>Unable to download wallpapers list</p>
+                    <p>Check your internet connection</p>")
+        anchors.centerIn: parent
+        horizontalAlignment: Text.AlignHCenter
+    }
+
     Item {
         id: navbar
         width: parent.width
@@ -37,8 +47,6 @@ Item {
             anchors.left: parent.left
             anchors.leftMargin: 20
             spacing: 20
-
-            
             
             Nav {
                 id: latestPhotoNav

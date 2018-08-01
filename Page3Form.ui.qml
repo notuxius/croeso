@@ -239,6 +239,7 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image7
                 y: 13
@@ -264,6 +265,7 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image8
                 y: -49
@@ -292,6 +294,7 @@ Item {
             opacity: 1
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image9
                 y: 6

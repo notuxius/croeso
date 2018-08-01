@@ -137,15 +137,15 @@ Item {
         }
     }
 
-    //    Image {
-    //        id: image
-    //        x: 270
-    //        y: 25
-    //        width: 100
-    //        height: 100
-    //        anchors.horizontalCenter: rowLayout.horizontalCenter
-    //        source: "images/advanced.svg"
-    //    }
+    //            Image {
+    //                id: image
+    //                x: 270
+    //                y: 25
+    //                width: 100
+    //                height: 100
+    //                anchors.horizontalCenter: rowLayout.horizontalCenter
+    //                source: "images/advanced.svg"
+    //            }
     RowLayout {
         id: rowLayout
         x: 101
@@ -241,6 +241,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 514
         anchors.top: parent.top
+
         Button {
             id: button71
             width: 150
@@ -250,6 +251,7 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image71
                 y: 13
@@ -276,6 +278,7 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image81
                 y: -49
@@ -304,6 +307,7 @@ Item {
             opacity: 1
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image91
                 y: 6
@@ -511,6 +515,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 276
         anchors.top: parent.top
+
         Button {
             id: button7
             width: 150
@@ -520,6 +525,7 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image7
                 y: 13
@@ -548,6 +554,7 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image8
                 y: -49
@@ -574,6 +581,7 @@ Item {
             opacity: 1
             Layout.fillWidth: true
             Material.elevation: 1
+
             Image {
                 id: image9
                 y: 6
